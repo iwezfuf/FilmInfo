@@ -1,0 +1,29 @@
+{
+  "description": "Opens websites with information about queried film",
+  "manifest_version": 2,
+  "name": "FilmInfo",
+  "version": "1.2",
+  "icons": {
+    "48": "filmicon.png"
+  },
+
+  "permissions": [
+    "activeTab",
+    "<all_urls>",
+    "tabs"
+  ],
+
+  "browser_action": {
+    "default_icon": "filmicon.png",
+    "default_title": "FilmInfo",
+    "default_popup": "popup/index.html"
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "filminfo@example.org",
+      "strict_min_version": "42.0"
+    }
+  }
+  
+}

@@ -1,0 +1,26 @@
+html, body {
+  width: 250px;
+}
+
+#name {
+  width: 200px;
+  font-size: medium;
+  font-family:"Arial"; 
+}
+
+.buttons {
+  border: 1px solid black;
+  margin: 3% auto;
+  padding: 4px;
+  text-align: center;
+  cursor: pointer;
+  width: 75px;
+}
+
+.buttons:hover {
+  background-color: lightgray;
+}
+
+.buttons {
+  background-color: white;
+}
