@@ -2,7 +2,7 @@
   "description": "Opens websites with information about queried film",
   "manifest_version": 2,
   "name": "FilmInfo",
-  "version": "1.2",
+  "version": "1.4",
   "icons": {
     "48": "filmicon.png"
   },
@@ -22,8 +22,7 @@
   "browser_specific_settings": {
     "gecko": {
       "id": "filminfo@example.org",
-      "strict_min_version": "42.0"
+      "strict_min_version": "58.0"
     }
   }
-  
 }
