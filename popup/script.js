@@ -4,9 +4,9 @@
 function listenForClicks() {
   document.getElementById("submit").addEventListener("click", (e) => {
       var name = document.getElementById("name").value;
-      var sites = ["imdb", "rotten tomatoes", "letterboxd", "roger ebert"]
+      var sites = ["imdb.com/", "rottentomatoes.com", "letterboxd.com", "rogerebert.com"]
       for (let i = 0; i < sites.length; i++) {
-        url = "https://www.google.com/search?q=" + "\"" + name + "\" " + sites[i] + "&btnI=&sourceid=navclient&gfns=1";
+        let url = "https://www.google.com/search?q=" + "\"" + name + "\" " + "site:" + sites[i] + "&btnI=&sourceid=navclient&gfns=1";
         browser.tabs.create({url: url});
       }
       window.close()
